@@ -19,7 +19,7 @@ which supports FLAC.
 ## About the instrument
 
 This is a sampling of a steel drum hand-made in Trinidad and sold by Hopetown Music of Long
-Beach CA, around 2000.  (See photo & PDF.)  The samples were recorded in September 2021.
+Beach CA, around 2005.  (See photo & PDF.)  The samples were recorded in September 2021.
 
 Samples were recorded in mid-side stereo using an AT4033a as the mid mic and a Studio Projects
 B3 as the side mic.  I am not a percussionist let alone a steel drum player, so
