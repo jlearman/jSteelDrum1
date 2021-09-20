@@ -1,0 +1,513 @@
+<control>
+label_cc1=Mod:width
+set_hdcc1=0.5
+
+<master>
+volume=2.5
+
+// Mod wheel controls stereo depth
+
+width_oncc1=100
+width_curvecc1=99
+
+// exp = 2 (matching default)
+//amp_velcurve_0=.0001
+//amp_velcurve_16=.0159
+//amp_velcurve_32=.0635
+//amp_velcurve_48=.1428
+//amp_velcurve_64=.2540
+//amp_velcurve_80=.3968
+//amp_velcurve_96=.5714
+//amp_velcurve_112=.7777
+//amp_velcurve_127=1
+
+// exp = 3
+amp_velcurve_0=.0001
+amp_velcurve_16=.0020
+amp_velcurve_32=.0160
+amp_velcurve_48=.0540
+amp_velcurve_64=.1280
+amp_velcurve_80=.2500
+amp_velcurve_96=.4319
+amp_velcurve_112=.6859
+amp_velcurve_127=1
+
+// exp = 4
+amp_velcurve_0=.000
+amp_velcurve_16=.0003
+amp_velcurve_32=.0040
+amp_velcurve_48=.0204
+amp_velcurve_64=.0645
+amp_velcurve_80=.1575
+amp_velcurve_96=.3265
+amp_velcurve_112=.6049
+amp_velcurve_127=1
+
+
+<group> lovel=1 hivel=40
+ampeg_release=100.000000
+<region> sample=SteelDrum_060__C4_1-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_060__C4_1-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_060__C4_1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_061_Db4_1-1.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_061_Db4_1-2.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_061_Db4_1-3.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_061_Db4_1.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_062__D4_1-1.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_062__D4_1-2.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_062__D4_1-3.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_062__D4_1.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_063_Eb4_1-1.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_063_Eb4_1-2.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_063_Eb4_1.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_064__E4_1-1.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_064__E4_1-2.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_064__E4_1.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_065__F4_1-1.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_065__F4_1-2.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_065__F4_1.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_066_Gb4_1-1.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_066_Gb4_1-2.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_066_Gb4_1.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_067__G4_1-1.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_067__G4_1-2.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_067__G4_1.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_068_Ab4_1-1.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_068_Ab4_1-2.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_068_Ab4_1-3.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_068_Ab4_1.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_069__A4_1-1.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_069__A4_1.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_070_Bb4_1-2.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_070_Bb4_1-3.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_070_Bb4_1.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_071__B4_1-2.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_071__B4_1.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_072__C5_1-2.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_072__C5_1-3.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_072__C5_1.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_073_Db5_1-1.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_073_Db5_1.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_074__D5_1-1.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_074__D5_1-2.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_074__D5_1.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_075_Eb5_1-1.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_075_Eb5_1-2.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_075_Eb5_1-3.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_075_Eb5_1.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_076__E5_1-1.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_076__E5_1-2.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_076__E5_1-3.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_076__E5_1.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_077__F5_1-1.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_077__F5_1-2.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_077__F5_1.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_078_Gb5_1-1.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_078_Gb5_1-2.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_078_Gb5_1.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_079__G5_1-1.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_079__G5_1-2.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_079__G5_1.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_080_Ab5_1-1.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_080_Ab5_1-2.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_080_Ab5_1.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_081__A5_1-1.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_081__A5_1-2.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_081__A5_1-3.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_081__A5_1.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_082_Bb5_1-1.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_082_Bb5_1-2.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_082_Bb5_1.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_083__B5_1-1.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_083__B5_1-2.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_083__B5_1.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_085_Db6_1-2.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_085_Db6_1-3.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_085_Db6_1.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_087_Eb6_1-1.flac lokey=Eb6 hikey=E6  pitch_keycenter=Eb6 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_087_Eb6_1-2.flac lokey=Eb6 hikey=E6  pitch_keycenter=Eb6 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_087_Eb6_1.flac lokey=Eb6 hikey=E6  pitch_keycenter=Eb6 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_089__F6_1-1.flac lokey=F6  hikey=B6  pitch_keycenter=F6  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_089__F6_1-2.flac lokey=F6  hikey=B6  pitch_keycenter=F6  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_089__F6_1-3.flac lokey=F6  hikey=B6  pitch_keycenter=F6  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_089__F6_1.flac lokey=F6  hikey=B6  pitch_keycenter=F6  lorand=0.75 hirand=1.0
+
+<group> lovel=41 hivel=70
+ampeg_release=100.000000
+<region> sample=SteelDrum_060__C4_2-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_060__C4_2-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_060__C4_2-3.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_060__C4_2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_061_Db4_2-1.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_061_Db4_2-2.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_061_Db4_2.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_062__D4_2-1.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_062__D4_2-2.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_062__D4_2-3.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_062__D4_2.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_063_Eb4_2-1.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_063_Eb4_2-2.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_063_Eb4_2-3.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_063_Eb4_2.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_064__E4_2-1.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_064__E4_2-2.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_064__E4_2.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_065__F4_2-1.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_065__F4_2-2.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_065__F4_2.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_066_Gb4_2-1.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_066_Gb4_2-2.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_066_Gb4_2.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_067__G4_2-1.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_067__G4_2-2.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_067__G4_2.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_068_Ab4_2-1.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_068_Ab4_2.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_069__A4_2-1.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_069__A4_2-2.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_069__A4_2-3.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_069__A4_2.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_070_Bb4_2-1.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_070_Bb4_2.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_071__B4_2-1.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_071__B4_2-2.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_071__B4_2-3.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_071__B4_2.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_072__C5_2-1.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_072__C5_2-2.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_072__C5_2.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_073_Db5_2-1.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_073_Db5_2-2.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_073_Db5_2-3.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_073_Db5_2.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_074__D5_2-1.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_074__D5_2-2.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_074__D5_2.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_075_Eb5_2-1.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_075_Eb5_2.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_076__E5_2-1.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_076__E5_2-2.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_076__E5_2-3.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_076__E5_2-4.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_077__F5_2-1.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_077__F5_2-2.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_077__F5_2.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_078_Gb5_2-1.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_078_Gb5_2-2.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_078_Gb5_2.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_079__G5_2-1.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_079__G5_2-2.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_079__G5_2.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_080_Ab5_2-1.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_080_Ab5_2-2.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_080_Ab5_2.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_081__A5_2-1.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_081__A5_2-2.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_081__A5_2.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_082_Bb5_2-1.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_082_Bb5_2-2.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_082_Bb5_2.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_083__B5_2-1.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_083__B5_2-2.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_083__B5_2-3.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_083__B5_2.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_085_Db6_2-1.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_085_Db6_2-2.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_085_Db6_2-3.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_085_Db6_2.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_087_Eb6_2-1.flac lokey=Eb6 hikey=E6  pitch_keycenter=Eb6 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_087_Eb6_2.flac lokey=Eb6 hikey=E6  pitch_keycenter=Eb6 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_089__F6_2-1.flac lokey=F6  hikey=B6  pitch_keycenter=F6  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_089__F6_2-2.flac lokey=F6  hikey=B6  pitch_keycenter=F6  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_089__F6_2.flac lokey=F6  hikey=B6  pitch_keycenter=F6  lorand=0.666666666667 hirand=1.0
+
+<group> lovel=71 hivel=100
+ampeg_release=100.000000
+<region> sample=SteelDrum_060__C4_3-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_060__C4_3-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_060__C4_3-3.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_060__C4_3.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_061_Db4_3-1.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_061_Db4_3-2.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_061_Db4_3.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_062__D4_3-1.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.0 hirand=0.2
+<region> sample=SteelDrum_062__D4_3-2.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.2 hirand=0.4
+<region> sample=SteelDrum_062__D4_3-3.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.4 hirand=0.6
+<region> sample=SteelDrum_062__D4_3-4.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.6 hirand=0.8
+<region> sample=SteelDrum_062__D4_3.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.8 hirand=1.0
+<region> sample=SteelDrum_063_Eb4_3-1.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.0 hirand=0.2
+<region> sample=SteelDrum_063_Eb4_3-2.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.2 hirand=0.4
+<region> sample=SteelDrum_063_Eb4_3-3.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.4 hirand=0.6
+<region> sample=SteelDrum_063_Eb4_3-4.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.6 hirand=0.8
+<region> sample=SteelDrum_063_Eb4_3.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.8 hirand=1.0
+<region> sample=SteelDrum_064__E4_3-1.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_064__E4_3-2.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_064__E4_3-3.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_064__E4_3.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_065__F4_3-1.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_065__F4_3-2.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_065__F4_3-3.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_065__F4_3.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_066_Gb4_3-1.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.0 hirand=0.2
+<region> sample=SteelDrum_066_Gb4_3-2.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.2 hirand=0.4
+<region> sample=SteelDrum_066_Gb4_3-3.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.4 hirand=0.6
+<region> sample=SteelDrum_066_Gb4_3-4.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.6 hirand=0.8
+<region> sample=SteelDrum_066_Gb4_3.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.8 hirand=1.0
+<region> sample=SteelDrum_067__G4_3-1.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_067__G4_3-2.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_067__G4_3.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_068_Ab4_3-1.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_068_Ab4_3-2.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_068_Ab4_3.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_069__A4_3-1.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_069__A4_3-2.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_069__A4_3-3.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_069__A4_3.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_070_Bb4_3-1.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_070_Bb4_3-2.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_070_Bb4_3-4.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_070_Bb4_3.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_071__B4_3-1.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_071__B4_3-2.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_071__B4_3-3.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_071__B4_3.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_072__C5_3-1.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_072__C5_3-2.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_072__C5_3.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_073_Db5_3-1.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_073_Db5_3-2.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_073_Db5_3.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_074__D5_3-1.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_074__D5_3-2.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_074__D5_3.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_075_Eb5_3-1.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_075_Eb5_3-2.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_075_Eb5_3.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_076__E5_3-1.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_076__E5_3-2.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_076__E5_3.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_077__F5_3-1.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_077__F5_3-2.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_077__F5_3-3.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_077__F5_3.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_078_Gb5_3-1.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_078_Gb5_3-2.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_078_Gb5_3.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_079__G5_3-1.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_079__G5_3-2.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_079__G5_3.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_080_Ab5_3-1.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_080_Ab5_3.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_081__A5_3-1.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_081__A5_3-2.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_081__A5_3.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_082_Bb5_3.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5
+<region> sample=SteelDrum_083__B5_3-1.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_083__B5_3-2.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_083__B5_3.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_085_Db6_3-1.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_085_Db6_3-2.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_085_Db6_3.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_087_Eb6_2-1.flac lokey=Eb6 hikey=Eb6 pitch_keycenter=Eb6 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_087_Eb6_2.flac lokey=Eb6 hikey=Eb6 pitch_keycenter=Eb6 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_089__F6_3.flac lokey=E6  hikey=B6  pitch_keycenter=F6 
+
+<group> lovel=101 hivel=112
+ampeg_release=100.000000
+<region> sample=SteelDrum_060__C4_4-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_060__C4_4-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_060__C4_4-3.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_060__C4_4.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_061_Db4_4-1.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_061_Db4_4-2.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_061_Db4_4.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_062__D4_4-1.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_062__D4_4-2.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_062__D4_4-3.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_062__D4_4.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_063_Eb4_4-1.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_063_Eb4_4-2.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_063_Eb4_4-3.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_063_Eb4_4.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_064__E4_4-1.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_064__E4_4-2.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_064__E4_4-3.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_064__E4_4.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_065__F4_4-1.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.0 hirand=0.2
+<region> sample=SteelDrum_065__F4_4-2.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.2 hirand=0.4
+<region> sample=SteelDrum_065__F4_4-3.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.4 hirand=0.6
+<region> sample=SteelDrum_065__F4_4-4.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.6 hirand=0.8
+<region> sample=SteelDrum_065__F4_4.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.8 hirand=1.0
+<region> sample=SteelDrum_066_Gb4_4-1.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_066_Gb4_4-2.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_066_Gb4_4.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_067__G4_4-1.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_067__G4_4-2.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_067__G4_4-3.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_067__G4_4.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_068_Ab4_4-1.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_068_Ab4_4-2.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_068_Ab4_4-3.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_068_Ab4_4.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_069__A4_4-1.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_069__A4_4-2.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_069__A4_4-3.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_069__A4_4.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_070_Bb4_4-1.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_070_Bb4_4-2.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_070_Bb4_4.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_071__B4_4-1.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_071__B4_4-2.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_071__B4_4.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_072__C5_4-2.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_072__C5_4-3.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_072__C5_4-4.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_072__C5_4.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_073_Db5_4-1.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_073_Db5_4-2.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_073_Db5_4-3.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_073_Db5_4.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_074__D5_4-1.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_074__D5_4-2.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_074__D5_4-3.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_074__D5_4.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_075_Eb5_4-1.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_075_Eb5_4-2.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_075_Eb5_4-3.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_075_Eb5_4.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_076__E5_4-1.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_076__E5_4-2.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_076__E5_4.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_077__F5_4-1.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_077__F5_4-2.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_077__F5_4-3.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_077__F5_4.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_078_Gb5_4-1.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_078_Gb5_4-2.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_078_Gb5_4-3.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_078_Gb5_4.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_079__G5_4-1.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.0 hirand=0.2
+<region> sample=SteelDrum_079__G5_4-2.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.2 hirand=0.4
+<region> sample=SteelDrum_079__G5_4-3.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.4 hirand=0.6
+<region> sample=SteelDrum_079__G5_4-4.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.6 hirand=0.8
+<region> sample=SteelDrum_079__G5_4.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.8 hirand=1.0
+<region> sample=SteelDrum_080_Ab5_4-1.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_080_Ab5_4-2.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_080_Ab5_4.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_081__A5_4-1.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_081__A5_4-2.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_081__A5_4.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_082_Bb5_4-1.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.0 hirand=0.166666666667
+<region> sample=SteelDrum_082_Bb5_4-2.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.166666666667 hirand=0.333333333333
+<region> sample=SteelDrum_082_Bb5_4-3.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.333333333333 hirand=0.5
+<region> sample=SteelDrum_082_Bb5_4-4.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.5 hirand=0.666666666667
+<region> sample=SteelDrum_082_Bb5_4-5.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.666666666667 hirand=0.833333333333
+<region> sample=SteelDrum_082_Bb5_4.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.833333333333 hirand=1.0
+<region> sample=SteelDrum_083__B5_4-1.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_083__B5_4-2.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_083__B5_4-3.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_083__B5_4.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_085_Db6_3-1.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_085_Db6_3-2.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_085_Db6_3.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_087_Eb6_5.flac lokey=Eb6 hikey=Eb6 pitch_keycenter=Eb6
+<region> sample=SteelDrum_089__F6_3.flac lokey=E6  hikey=B6  pitch_keycenter=F6 
+
+<group> lovel=113 hivel=127
+ampeg_release=100.000000
+<region> sample=SteelDrum_060__C4_5-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_060__C4_5-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_060__C4_5-3.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_060__C4_5.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_061_Db4_5-1.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_061_Db4_5-2.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_061_Db4_5-3.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_061_Db4_5.flac lokey=Db4 hikey=Db4 pitch_keycenter=Db4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_062__D4_5-1.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_062__D4_5-2.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_062__D4_5-3.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_062__D4_5.flac lokey=D4  hikey=D4  pitch_keycenter=D4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_063_Eb4_5-1.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_063_Eb4_5-2.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_063_Eb4_5-3.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_063_Eb4_5.flac lokey=Eb4 hikey=Eb4 pitch_keycenter=Eb4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_064__E4_5-1.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.0 hirand=0.2
+<region> sample=SteelDrum_064__E4_5-2.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.2 hirand=0.4
+<region> sample=SteelDrum_064__E4_5-4.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.4 hirand=0.6
+<region> sample=SteelDrum_064__E4_5-5.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.6 hirand=0.8
+<region> sample=SteelDrum_064__E4_5.flac lokey=E4  hikey=E4  pitch_keycenter=E4  lorand=0.8 hirand=1.0
+<region> sample=SteelDrum_065__F4_5-1.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_065__F4_5-2.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_065__F4_5-3.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_065__F4_5.flac lokey=F4  hikey=F4  pitch_keycenter=F4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_066_Gb4_5-1.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.0 hirand=0.2
+<region> sample=SteelDrum_066_Gb4_5-2.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.2 hirand=0.4
+<region> sample=SteelDrum_066_Gb4_5-3.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.4 hirand=0.6
+<region> sample=SteelDrum_066_Gb4_5-4.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.6 hirand=0.8
+<region> sample=SteelDrum_066_Gb4_5.flac lokey=Gb4 hikey=Gb4 pitch_keycenter=Gb4 lorand=0.8 hirand=1.0
+<region> sample=SteelDrum_067__G4_5-1.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_067__G4_5-2.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_067__G4_5-3.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_067__G4_5.flac lokey=G4  hikey=G4  pitch_keycenter=G4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_068_Ab4_5-1.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_068_Ab4_5-2.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_068_Ab4_5-3.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_068_Ab4_5.flac lokey=Ab4 hikey=Ab4 pitch_keycenter=Ab4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_069__A5_5-1.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_069__A5_5.flac lokey=A4  hikey=A4  pitch_keycenter=A4  lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_070_Bb4_5-1.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_070_Bb4_5-2.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_070_Bb4_5-3.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_070_Bb4_5.flac lokey=Bb4 hikey=Bb4 pitch_keycenter=Bb4 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_071__B4_5-1.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_071__B4_5-2.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_071__B4_5-3.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_071__B4_5.flac lokey=B4  hikey=B4  pitch_keycenter=B4  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_072__C5_5-1.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_072__C5_5-2.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_072__C5_5.flac lokey=C5  hikey=C5  pitch_keycenter=C5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_073_Db5_5-1.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_073_Db5_5-2.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_073_Db5_5.flac lokey=Db5 hikey=Db5 pitch_keycenter=Db5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_074__D5_5-1.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_074__D5_5-2.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_074__D5_5.flac lokey=D5  hikey=D5  pitch_keycenter=D5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_075_Eb5_5-1.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_075_Eb5_5.flac lokey=Eb5 hikey=Eb5 pitch_keycenter=Eb5 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_076__E5_5-1.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_076__E5_5-2.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_076__E5_5.flac lokey=E5  hikey=E5  pitch_keycenter=E5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_077__F5_5-1.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_077__F5_5-2.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_077__F5_5-3.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_077__F5_5.flac lokey=F5  hikey=F5  pitch_keycenter=F5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_078_Gb5_5-1.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_078_Gb5_5-2.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_078_Gb5_5-3.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_078_Gb5_5.flac lokey=Gb5 hikey=Gb5 pitch_keycenter=Gb5 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_079__G5_5-1.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_079__G5_5-2.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_079__G5_5.flac lokey=G5  hikey=G5  pitch_keycenter=G5  lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_080_Ab5_5-1.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_080_Ab5_5-2.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_080_Ab5_5-3.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_080_Ab5_5.flac lokey=Ab5 hikey=Ab5 pitch_keycenter=Ab5 lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_081__A5_5-1.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_081__A5_5-2.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_081__A5_5-3.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_081__A5_5.flac lokey=A5  hikey=A5  pitch_keycenter=A5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_082_Bb5_5-1.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.0 hirand=0.333333333333
+<region> sample=SteelDrum_082_Bb5_5-2.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.333333333333 hirand=0.666666666667
+<region> sample=SteelDrum_082_Bb5_5.flac lokey=Bb5 hikey=Bb5 pitch_keycenter=Bb5 lorand=0.666666666667 hirand=1.0
+<region> sample=SteelDrum_083__B5_5-2.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.0 hirand=0.25
+<region> sample=SteelDrum_083__B5_5-3.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.25 hirand=0.5
+<region> sample=SteelDrum_083__B5_5-4.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.5 hirand=0.75
+<region> sample=SteelDrum_083__B5_5-5.flac lokey=B5  hikey=C6  pitch_keycenter=B5  lorand=0.75 hirand=1.0
+<region> sample=SteelDrum_085_Db6_5-1.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.0 hirand=0.5
+<region> sample=SteelDrum_085_Db6_5.flac lokey=Db6 hikey=D6  pitch_keycenter=Db6 lorand=0.5 hirand=1.0
+<region> sample=SteelDrum_087_Eb6_5.flac lokey=Eb6 hikey=E6  pitch_keycenter=Eb6
+<region> sample=SteelDrum_089__F6_3.flac lokey=F6  hikey=B6  pitch_keycenter=F6
+
+// stereo depth control curve
+<curve> curve_index=99 v000=-1 v060=0 v068=0 v127=2
+
