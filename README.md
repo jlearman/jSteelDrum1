@@ -11,9 +11,10 @@
 
 ## How-to
 
-Click the green "Clone or download" button above, and choose "Download ZIP". Unpack the .zip
+Click the green "Code" button above, and choose "Download ZIP". Unpack the .zip
 file into a folder of your choice, and load the result into your sample player.  I use Sforzando,
-which supports FLAC.
+which supports FLAC.  You only need the jSteelDrum-flac-sfz folder and its contents.
+The .sfz file in there is what you load into your player.
 
 ## About the instrument
 
