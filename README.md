@@ -1,6 +1,9 @@
 # jSteelDrum
  C Steel Drum sampled instrument, sfz format
 
+ NOTE: The improved version is much better: https://github.com/jlearman/jlearman.SteelDrum
+ Also available at https://github.com/sfzinstruments/jlearman.SteelDrum.
+
 - Hand-made oil-drum steel drum.
 - 27 notes sampled, C4 (middle C) to B5, plus C#6, D#6, and F6
 - 5 velocity layers
